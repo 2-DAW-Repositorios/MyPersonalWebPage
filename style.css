@@ -1,0 +1,235 @@
+html {
+    background-color: #5682B1;
+}
+
+header {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1, h3 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    font-family: 'Changa One', sans-serif;
+    text-shadow: 2px 5px 5px black;
+}
+
+header, h3 {
+    font-size: 25px;
+    font-family: 'Changa One', sans-serif;
+}
+
+.imageHeader {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: -5px 0px 10px;
+    border: 3px black solid;
+}
+
+nav {
+    margin-top: 10px;
+    height: 75px;
+    text-align: center;
+    background-color: #17181C;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    position: static;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #929fb3;
+    font-size: 20px;
+    position: static;
+    border-radius: 20px;
+}
+
+.section1 {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section1 div {
+    margin-top: 75px;
+    margin-left: 30px;
+    margin-bottom: 75px;
+}
+
+.section1 div h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.section1 div p {
+    margin-left: 35px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section1 div ul li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.section2 {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.section2 .textSpace {
+    margin-top: 100px;
+}
+
+.section2 .textSpace h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.section2 .tableSpace {
+    margin-bottom: 100px;
+}
+
+th:hover {
+    cursor: pointer;
+    border: 3px solid #739EC9;
+}
+
+td:hover {
+    background-color: #739EC9;
+}
+
+.section2 td,th {
+    border: 3px solid black;
+    padding: 7px;
+}
+
+.section2 table {
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.section3 {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.section3 .textSpace {
+    margin-top: 100px;
+}
+
+.section3 .textSpace h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.formConfig {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#name, #surname, #email {
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border: 2px solid ;
+}
+
+#name:hover, #surname:hover, #email:hover {
+    border: 2px solid #739EC9;
+}
+
+#button1, #button2 {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #5682B1;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px #17181C;
+}
+
+#button1:hover, #button2:hover {
+    background-color: #1d61aa;
+    
+} 
+
+
+.footer {
+    border: 2px solid black;
+    height: 100px;
+    padding-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-top: none;
+    margin-top: -25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer h3 {
+    padding-top: 10px;
+    
+}
+
+.imageFooter {
+    position: absolute;
+    width: 65px;
+    border: 2px black solid;
+    border-radius: 20px;
+    bottom: -221.5%;
+    right: 1.2%;
+    box-shadow: 3px 2px 5px;
+}
+
+.footer .paragraph p{
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: -90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.copyRight {
+    padding-left: 12%;
+    font-weight: bolder;
+}

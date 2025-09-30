@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.cdnfonts.com/css/changa-one" rel="stylesheet">            
+    <title>Página personal</title>
+</head>
+    <body>
+        <header>
+            <div>
+                <h1>Pagína personal para curso 2025/2026</h1>
+                <h3>Fernando Berigüete Alberca</h3>
+                <img src="Imagenes/imagen.png" alt="No se ha podido encontrar la imagen" class="imageHeader">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#personal">Datos personales</a></li>
+                <li><a href="#schoolSchedule">Horario Escolar</a></li>
+                <li><a href="#basicForm">Formulario</a></li>
+            </ul>
+        </nav>
+        <section class="section1">
+            <div>
+                <h1 id="personal">Apartados personales y habilidades técnicas</h1>
+                <div>
+                    <h3>Biografia:</h3>
+                    <p>Mi nombre es Fernando Berigüete Alberca, tengo 19 años, nací y vivo en Madrid.</p>
+                    <h3>Descripción personal:</h3>
+                    <p>Siempre he sido bastante curioso al manipular aparatos electrónicos desde pequeño y cuando descubrí los ordenadores, <br>
+                        móviles, consolas, etc, me di cuenta de que este sector me interesaba mucho y quería aprender mucho más sobre él. <br>
+                        Lo que más me gusta y a lo que me quiero dedicar algún día, si se presenta la oportunidad, es a ser programador front-end o técnico en seguridad informática.
+                    </p>
+                    <h3>Habilidades técnicas:</h3>
+                    <ul>
+                        <li>Programación con Java.</li>
+                        <li>Diseño web (HTML/CSS).</li>
+                        <li>Cloud Hosting (AWS, Google Cloud).</li>
+                        <li>Manejo de servicios en red (DHCP, DNS, FTP, HTTP).</li>
+                        <li>Montaje y mantenimiento de equipos informáticos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="textSpace">
+                <h1 id="schoolSchedule">Horario 2025/2026</h1>
+            </div>
+            <div class="tableSpace">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <th>8:30 - 9:25</th>
+                        <td rowspan="2">Des. Web Entorno Cliente</td>
+                        <td rowspan="2">Arquitectura en la Nube</td>
+                        <td>Ingles Prog.</td>
+                        <td rowspan="2">Diseño de Int. Web</td>
+                        <td rowspan="2">Des. Web Entorno Cliente</td>
+                     </tr>
+                    <tr>
+                        <th>9:25 - 10:20</th>
+                        <td rowspan="2">Desarrollo Aplicaciones Web</td>
+                    </tr>
+                    <tr>
+                        <th>10:20 - 11:15</th>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Diseño de Int. Web</td>
+                    </tr>
+                    <tr>
+                        <th>11:15 : 11:45</th>
+                        <td colspan="5">RECREO</td>      
+                    </tr>
+                    <tr>                            <th>11:45 - 12:40</th>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Sostenibilidad de Aplicaciones</td>
+                        <td>Des. Web Entorno Servidor</td>
+                        <td>Diseño de Int. Web</td>
+                    </tr>                        <tr>
+                        <th>12:40 - 13:35</th>
+                        <td>Itinerario personal</td>
+                        <td>Desarrollo Aplicaciones Web</td>
+                        <td rowspan="2">Des. Web Entorno Cliente</td>
+                        <td>Itinerario personal</td>
+                        <td rowspan="2">Des. Web Entorno Servidor</td>
+                    </tr>
+                    <tr>
+                        <th>13:35 - 14:30</th>
+                        <td>Ingles Prog.</td>
+                        <td>Digitalización de aplicaciones</td>
+                        <td>Arquitectura en la Nube</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="textSpace">
+                <h1 id="basicForm">Formulario básico</h1>
+            </div>
+            <div class="formConfig">
+                <form action="#" method="post">
+                    <label id="nombre">Nombre:</label><br>
+                    <input type="text" id="name" name="nombre" placeholder="Introduce tu nombre" required><br><br>
+
+                    <label id="apellidos">Apellidos:</label><br>
+                    <input type="text" id="surname" placeholder="Introduce tus apellidos" name="apellidos" required><br><br>
+
+                    <label id="correo">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="correo" placeholder="example@gmail.com" required><br><br>
+
+                    <input type="submit" value="Enviar" id="button1">
+                    <input type="reset" value="Restablecer" id="button2">
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+                <h3>Contacto</h3>
+                <div class="paragraph">
+                    <p><b>Correo:</b> Fernando.beriguete05@gmail.com</p>
+                    <p><b>Redes Sociales:</b> @Usuario</p>
+                    <p><b>Numero de contacto:</b> +34 123 45 67 89</p>
+                    <p class="copyRight">&copy; Todos los derechos reservados</p>
+                </div>
+                <img src="/Tarea0/Imagenes/imagen.png" alt="No se ha podido encontrar la imagen" class="imageFooter">
+        </footer>
+    </body>
+</html>
